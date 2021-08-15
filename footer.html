@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.page-wrapper
+{
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    z-index: 11111;
+    top: 35px;
+}
+
+footer p, footer strong, footer b, footer {
+    color: #b0b0b0;
+}
+
+.footer-top {
+    background: #396385;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0 20px;
+    font-family: rubik;
+  padding-top:30px;
+  
+}
+
+.footer-top{
+    background-color: #1c1f2f;
+}
+
+#waterdrop {
+    height: 30px;
+}
+
+#waterdrop canvas {
+    bottom: -70px !important;
+}
+
+
+	</style>
+</head>
+<body>
+</body>
+  <footer>
+<div class="page-wrapper">
+    <div id="waterdrop"></div>
+    <footer>
+      <div class="footer-top">
+          <table>
+  <tr><td align="center">         
+        <p style="float: center"> &nbsp
+          <a href="home.html">Home</a>
+          |
+          <a href="#">Reservation</a>
+          |
+          <a href="#">Stays</a>
+          |
+          <a href="#">Employee Login</a>
+          |
+          <a href="#">Contact Us</a>
+        </p>
+  </td>
+  <td>
+        <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp © IRBMS</p>
+    </td>
+</tr>
+<tr>
+         <td> <p>&nbsp &nbsp+91 888-888-8888</p></td>
+         <td>
+          <p><a href="mailto:support@irbms.com">support@irbms.com</a></p></td>
+      </tr>
+  </table>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+
+ <script> jQuery('#waterdrop').raindrops({color:'#1c1f2f', canvasHeight:150, density: 0.1, frequency: 20});
+</script>
+</footer>
+
+</html>
